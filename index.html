@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel='stylesheet' type='text/css' href='/css/slate.min.css'>
+  <link rel='stylesheet' type='text/css' href='/css/style.css'>
+</head>
+
+<body>
+    <h1 class="title item-container item">Referee Timer</h1>
+    <form id="main-form">
+
+        <div class="item-container">
+            <div class="item-container-header">Game Clock</div>
+            <div class="item-container-content">
+                <label class="item">
+                    2-minute Warning
+                    <input type="checkbox" id='toggle_2min' class="item-toggle" name="toggle_2min" checked>
+                </label>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="item-container-header">Play Clock</div>
+            <div class="item-container-content">
+                <label class="item tab-buttons">
+                    <a name="tab_1" id='pc25' class="tab-button active">25 Seconds</a>
+                    <a name="tab_1" id='pc30' class="tab-button">30 Seconds</a>
+                </label>
+                <label class="item">
+                    15-second warning
+                    <input type="checkbox" id='toggle_15s' class="item-toggle" name="toggle_15s" checked>
+                </label>
+                <label class="item">
+                    10-second warning
+                    <input type="checkbox" id='toggle_10s' class="item-toggle" name="toggle_10s" checked>
+                </label>
+                <label class="item">
+                    5-second warning
+                    <input type="checkbox" id='toggle_05s' class="item-toggle" name="toggle_05s" checked>
+                </label>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="button-container">
+                <input id="submitButton" type="button" class="item-button" value="SUBMIT">
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript" src="/js/slate.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
